@@ -1,0 +1,35 @@
+# IDE - VSCode
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+#Logs
+
+*.log
+!error.log
+
+#DBs
+
+*.db
+
+#Webpack directories
+
+.webpack
+.idea
+.env 
+
+#package directories
+
+node_modules/
+jspm_packages/
+
+#Build output directories
+
+/target
+/bin
+/out
+
+
