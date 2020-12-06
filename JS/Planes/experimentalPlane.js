@@ -1,6 +1,6 @@
-const Plane = require('./Plane');
+const plane = require('./plane');
 
-class experimentalPlane   extends Plane
+class experimentalPlane   extends plane
 {
 
     constructor(model, maxSpeed, maxFlightDistance, maxLoadCapacity, type, classificationLevel)  {
